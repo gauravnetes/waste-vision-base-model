@@ -1,0 +1,10 @@
+# For GPU support
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# YOLOv8 library
+ultralytics
+
+# Other common libraries
+opencv-python
+matplotlib
+pyyaml

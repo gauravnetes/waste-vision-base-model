@@ -1,0 +1,63 @@
+# --- General Python ---
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environment ---
+# Environments created by venv, virtualenv, pyenv, etc.
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# --- AI/ML Specific ---
+# YOLOv8 and other training frameworks
+runs/
+results/
+
+# Datasets (It's best practice to not track large datasets in Git)
+# Consider using DVC or Git LFS if you need version control for data.
+data/
+
+# Model weights and checkpoints
+# Base models can be downloaded via script, and trained models are artifacts.
+*.pt
+*.pth
+*.weights
+
+# --- Notebooks ---
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# --- IDE & Editor ---
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+
+# --- OS Specific ---
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
